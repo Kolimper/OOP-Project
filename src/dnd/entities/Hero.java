@@ -1,14 +1,14 @@
 package dnd.entities;
 
 
-public class Player extends Entity {
+public class Hero extends Entity {
 
     private final Race race;
     private int level;
     private final Inventory inventory;
     private int pendingPoints;
 
-    public Player(Race race) {
+    public Hero(Race race) {
         this.race = race;
         this.level = 1;
         this.strength = race.getBaseStrength();
